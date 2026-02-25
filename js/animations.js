@@ -29,7 +29,6 @@
 
   function initScrollReveals() {
     const sections = document.querySelectorAll('.section-reveal');
-    const featureCards = document.querySelectorAll('.feature-card');
 
     const observer = new IntersectionObserver(
       (entries) => {
