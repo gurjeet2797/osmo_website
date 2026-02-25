@@ -1,0 +1,131 @@
+/* Osmo Design Tokens — Exact values from iOS app */
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #000000;
+  --bg-sheet: rgba(255, 255, 255, 0.06);
+  --bg-elevated: rgba(255, 255, 255, 0.04);
+  --bg-input: rgba(255, 255, 255, 0.06);
+
+  /* Text */
+  --text-primary: rgba(255, 255, 255, 1);
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  --text-tertiary: rgba(255, 255, 255, 0.6);
+  --text-muted: rgba(255, 255, 255, 0.35);
+  --text-dim: rgba(255, 255, 255, 0.22);
+  --text-suggestion: rgba(255, 255, 255, 0.75);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-faint: rgba(255, 255, 255, 0.08);
+  --border-ghost: rgba(255, 255, 255, 0.04);
+
+  /* Accents */
+  --accent-star-hue-min: 0.55;
+  --accent-star-hue-max: 0.75;
+  --accent-star-saturation: 0.3;
+  --accent-glow: hsla(234, 30%, 100%, 0.08);
+
+  /* Nebula colors */
+  --nebula-1: rgba(38, 13, 77, 0.08);
+  --nebula-2: rgba(13, 26, 64, 0.04);
+
+  /* Semantic */
+  --success: rgba(0, 255, 0, 0.8);
+  --error: rgba(255, 0, 0, 0.8);
+  --recording: rgba(255, 0, 0, 0.8);
+
+  /* Drag handle */
+  --handle: rgba(255, 255, 255, 0.25);
+
+  /* Radii */
+  --radius-bubble: 20px;
+  --radius-sheet: 28px;
+  --radius-control: 32px;
+  --radius-pill: 9999px;
+  --radius-category: 16px;
+  --radius-event: 12px;
+
+  /* Spacing */
+  --bubble-padding-x: 16px;
+  --bubble-padding-y: 12px;
+  --pill-padding-x: 18px;
+  --pill-padding-y: 11px;
+  --sheet-margin-x: 16px;
+  --section-padding: 20px;
+  --section-padding-lg: 24px;
+  --message-spacing: 20px;
+
+  /* Typography — system font stack */
+  --font-system: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  --font-mono: "SF Mono", ui-monospace, monospace;
+
+  /* Animation */
+  --ease-spring: cubic-bezier(0.32, 0.72, 0, 1);
+  --transition-fast: 0.2s var(--ease-spring);
+  --transition-medium: 0.3s var(--ease-spring);
+}
+
+/* Typography scale */
+.hero-greeting {
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  font-family: var(--font-system);
+}
+
+.app-name-header {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  font-family: var(--font-system);
+}
+
+.body-text {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-family: var(--font-system);
+}
+
+.suggestion-pill-text {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  font-family: var(--font-system);
+}
+
+.tagline {
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-family: var(--font-mono);
+}
+
+.status-text {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: var(--font-mono);
+}
+
+.subtitle {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-family: var(--font-mono);
+}
+
+.category-tabs {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0;
+  font-family: var(--font-system);
+}
+
+.section-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: var(--font-mono);
+}
